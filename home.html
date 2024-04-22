@@ -1,0 +1,164 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Medical Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('./logo.png');
+            background-size: cover;
+            background-position: center;
+            
+          
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            background-color: #7ed957;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header img {
+            height: 60px;
+            width: auto;
+        }
+
+        .report-section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            background-image: url('images.jpg');
+            
+        }
+
+        .line-separator {
+            border-top: 3px solid #7ed957;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        footer {
+            background-color: #7ed957;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+      *{
+        box-sizing: border-box;
+      }   
+      .column{
+    
+        float: left;
+        width:30%;
+        margin-left: 20px;
+      }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <div class="header-info">
+                <h1>FETAL HEALTH REPORT</h1>
+
+                <p>MONTH  -  YEAR</p>
+            </div>
+            <div class="header-logo">
+                <img src="logo.png">
+            </div>
+        </header>
+
+        <div class="report-section">
+            <section class="store-user mt-5" style="color:#7ed957;">
+                <div class="col-10">
+                    <div class="row bb pb-3">
+                        <div class="col-7">                          
+                            <h2><strong>Patient Name:</strong></h2>                          
+                        </div>
+                        <div class="col-5">                          
+                            <h2><strong>Contact No:</strong></h2>
+                        </div>
+                        <div class="col-4">                          
+                            <h2><strong>Age:</strong></h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            
+        
+
+            <div class="line-separator"></div> <!-- Line separator -->
+<div style="color:#7ed957;">
+            <p><strong>INTERPRETATION:</strong> ----------------------------------------------------------------------------------------------------------</p>
+            <P>------------------------------------------------------------------------------------------------------------------------------------</P>
+            <p>Description on interpretation and details on the report generated etc--------------------------------------------</p>
+            <p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+            <p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+
+            <p><strong>RESULT: </strong></p>
+<div class="row">
+    <div class="column">
+    <img src="graph.jpg" alt="s2" width="100%">
+    <div class="desc">HEART RATE</div>
+
+</div>
+
+<div class="column">
+    <img src="graph.jpg" alt="s2" width="100%">
+    <div class="desc">ACCELERATIONS PER/S</div>
+</div>
+
+<div class="column">
+    <img src="graph.jpg" alt="s2" width="100%">
+    <div class="desc">UTERINE CONTRACTION PER/S</div>
+</div>
+
+<div class="column">
+    <img src="graph.jpg" alt="s2" width="100%">
+    <div class="desc">% OF TIME WITH ABNORMAL SHORT-TERM VARIABILITY</div>
+</div>
+
+<div class="column">
+    <img src="graph.jpg" alt="s2" width="100%">
+    <div class="desc">% OF TIME WITH ABNORMAL LONG-TERM VARIABILITY</div>
+</div></div>
+                
+            
+        </div>
+        </div>
+        
+        <footer>
+            <p>&copy; Hoping to help - fetalhealthexaminer@gmail.com - 123-456-7890</p>
+        </footer>
+    </div>
+</body>
+</html
